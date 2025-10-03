@@ -1,1 +1,1 @@
-# riceriddles.github.io
+# riceriddles.github.io/home/
