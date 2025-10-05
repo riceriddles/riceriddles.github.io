@@ -4,17 +4,17 @@
   <title>Riceの謎置き場</title>
 </head>
 <body>
-  <h1>文字入力のテスト</h1>
+  
+  <h1>文字入力と正誤判定のテスト</h1>
   <input type="text" id="myInput" placeholder="ここに文字列を入力">
-  <button Onclick="showArelt()">送信</button>
-   <script>
-    function showAlert() {
-      // 入力欄の値を取得
-      var text = document.getElementById("myInput").value;
+  <button Onclick="showAlert()">送信</button>
 
-      // アラート表示
-      alert("あなたが入力したのは: " + text);
+  <script>
+    function showAlert(){
+      var text = document.getElementById("myInput").value;
+      alert("あなたが入力したのは: "+ text);
     }
   </script>
+    
 </body>
 </html>
