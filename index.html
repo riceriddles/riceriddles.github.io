@@ -1,20 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Riceの謎置き場</title>
+  <meta charset="UTF-8">
+  <title>入力とアラートの基本例</title>
 </head>
 <body>
-  
-  <h1>文字入力と正誤判定のテスト</h1>
-  <input type="text" id="myInput" placeholder="ここに文字列を入力">
-  <button Onclick="showAlert()">送信</button>
+  <h1>文字入力テスト</h1>
+  <input type="text" id="myInput" placeholder="ここに文字を入力">
+  <button onclick="showAlert()">送信</button>
 
   <script>
-    function showAlert(){
+    function showAlert() {
+      // 入力欄の値を取得
       var text = document.getElementById("myInput").value;
-      alert("あなたが入力したのは: "+ text);
+
+      // アラート表示
+      alert("あなたが入力したのは: " + text);
     }
   </script>
-    
 </body>
 </html>
